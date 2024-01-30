@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# print Best School 10 times
+n=0
+while [ $n -le 9 ]
+do
+	echo 'Best School'
+	n=$(( n+1 ))
+	if [[ $n -eq 9 ]]
+	then
+		echo 'Hi'
+	fi
+done
